@@ -18,11 +18,17 @@ Before downloading, make sure that you have Flutter and Dart installed on your d
 
 2. Open the project files in the IDE of your choice.
 
-3. Run the app, preferably on Xcode's iOS Simulator or an Android Emulator.
+3. Run the second command to obtain the project dependencies.
 
-   ```bash
+      ```bash
    export PATH="$PATH:`pwd`/flutter/bin"
    ```
+
+     ```bash
+   flutter pub get
+   ```
+
+2. Run the app, preferably on Xcode's iOS Simulator or an Android Emulator.
 
    ```bash
    flutter run
